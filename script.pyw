@@ -4,7 +4,7 @@ from datetime import datetime as dt
 hostsPath = r"C:\Windows\System32\drivers\etc\hosts"
 redirect = "127.0.0.1"
 
-websites = ["www.youtube.com", "youtube.com", "www.facebook.com", "facebook.com", "www.instagram.com", "instagram.com", "www.linkedin.com", "linkedin.com", "www.messenger.com", "messenger.com", "www.snapchat.com", "snapchat.com", "www.twitch.tv", "twitch.tv"]
+websites = ["www.facebook.com", "facebook.com", "www.instagram.com", "instagram.com", "www.linkedin.com", "linkedin.com", "www.messenger.com", "messenger.com", "www.snapchat.com", "snapchat.com", "www.twitch.tv", "twitch.tv", "www.reddit.com", "reddit.com", "www.ondemandkorea.com", "ondemandkorea.com", "twist.moe", "www.twitter.com", "twitter.com"]
 
 while True:
     if (0 <= dt.today().weekday() <= 4):
